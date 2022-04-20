@@ -3,7 +3,7 @@ spring:
     url: jdbc:h2:mem:licensedb
     driver-class-name: org.h2.Driver
     username: sa
-    password: '{cipher}2a72726b5bc06e0006de2090f821311a7d03fd4813b5dd2d0afc94cec478af75'
+    password: sa
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
   h2:
